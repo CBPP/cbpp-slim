@@ -1,0 +1,13 @@
+Source: cbpp-slim
+Section: misc
+Priority: extra
+Maintainer: Ben Young <computermouth@crunchbangplusplus.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://crunchbangplusplus.org
+
+Package: cbpp-slim
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, rpl, tar, slim, slimconf, cbpp-slim-theme
+Description: CrunchBangPlusPlus user set-up hack.
+ Contains scripts for use with CrunchBangPlusPlus.
