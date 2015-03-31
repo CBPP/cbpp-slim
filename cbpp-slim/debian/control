@@ -8,6 +8,6 @@ Homepage: https://crunchbangplusplus.org
 
 Package: cbpp-slim
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, rpl, tar, slim, slimconf, cbpp-slim-theme
+Depends: ${shlibs:Depends}, ${misc:Depends}, rpl, tar, slim, cbpp-slim-theme
 Description: CrunchBangPlusPlus user set-up hack.
  Contains scripts for use with CrunchBangPlusPlus.
