@@ -7,10 +7,9 @@
 # be using/referencing it.
 
 if [ "$(pidof conky)" ]; then
-    killall conky
-    conky -q
+    killall conky && conky -q &
     exit
 else
-    conky -q
+    conky -q &
     exit
 fi
