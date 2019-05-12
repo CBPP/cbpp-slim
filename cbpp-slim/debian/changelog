@@ -1,3 +1,10 @@
+cbpp-slim (9.0) unstable; urgency=low
+
+  * Getting stretchy
+  * Throw out the broken old tint2wizard
+
+ -- Ben Young <computermouth@crunchbangplusplus.org>  Sat, 17 Jun 2017 17:27:48 -0800
+
 cbpp-slim (1.0) unstable; urgency=low
 
   * Initial Release.

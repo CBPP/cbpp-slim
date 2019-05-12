@@ -16,6 +16,8 @@ if [ ! -f "/home/$USER/.config/crunchbangplusplus/cb-setup" ]; then
         rpl -q 'REPLACEME' $USER /home/$USER/.gtk-bookmarks > /dev/null 2>&1
     fi
     ln -s /usr/share/backgrounds /home/$USER/images/wallpapers/shared
+    
+    sed -i 's,033\[01;32m,033[01;37m,g' /home/$USER/.bashrc
 
     touch /home/$USER/.config/crunchbangplusplus/cb-setup
     chown -R $USER:$USER /home/$USER
